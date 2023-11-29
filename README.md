@@ -69,7 +69,7 @@ reboot
 ## 1.2 Installing the spinnaker_sdk_camera_driver
 ```
 cd ~/ros_sensors/src
-git clone https://github.com/ros-drivers/velodyne.git
+https://github.com/Saifali4604/ROS_sensors
 cd ..
 catkin_make
 source devel/setup.bash
