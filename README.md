@@ -54,6 +54,7 @@ libpcre2-16-0 libdouble-conversion3 libxcb-xinput0 \
 libxcb-xinerama0
 ```
 **SPINNAKER INSTALLATION**
+
 ```sudo sh install_spinnaker.sh```
 
 **USB CAMERA SETUP**
