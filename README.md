@@ -40,7 +40,7 @@ rosrun rviz rviz -f velodyne
 
 ## 1.1 Installing Spinnaker SDK 
 
-(Download)[https://flir.netx.net/file/asset/54573/original/attachment]
+[Download]https://flir.netx.net/file/asset/54573/original/attachment
 
 **Extract:** x64_focal -> spinnaker-2.7.0.128-amd64 
 Open the terminal inside spinnaker-2.7.0.128-amd64
