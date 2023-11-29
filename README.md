@@ -38,7 +38,7 @@ rosrun rviz rviz -f velodyne
 
 # 2 Flir Camera
 
-## 1.1 Installing Spinnaker SDK 
+## 2.1 Installing Spinnaker SDK 
 
 (Download)https://flir.netx.net/file/asset/54573/original/attachment
 
@@ -64,10 +64,10 @@ sudo ./configure_spinnaker.sh
 reboot
 ```
 
-## 1.2 Installing ROS dependencies
+## 2.2 Installing ROS dependencies
 ``` sudo apt install libunwind-dev ros-noetic-cv-bridge ros-noetic-image-transport```
 
-## 1.2 Installing the spinnaker_sdk_camera_driver
+## 2.3 Installing the spinnaker_sdk_camera_driver
 ```
 cd ~/ros_sensors/src
 https://github.com/Saifali4604/ROS_sensors
@@ -76,7 +76,7 @@ catkin_make
 source devel/setup.bash
 ```
 
-## 1.4 Run the package
+## 2.4 Run the package
 1. Run the launch file:
 ```
 roslaunch spinnaker_sdk_camera_driver acquisition.launch
