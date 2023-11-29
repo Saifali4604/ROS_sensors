@@ -13,6 +13,7 @@ sudo apt update
 sudo apt upgrade
 cd ..
 catkin_make
+source devel/setup.bash
 ```
 Now, your Velodyne package is ready to run.
 
@@ -38,7 +39,9 @@ rosrun rviz rviz -f velodyne
 # 2 Flir Camera
 
 ## 1.1 Installing Spinnaker SDK 
-[https://flir.netx.net/file/asset/54573/original/attachment]
+
+(Download)[https://flir.netx.net/file/asset/54573/original/attachment]
+
 **Extract:** x64_focal -> spinnaker-2.7.0.128-amd64 
 Open the terminal inside spinnaker-2.7.0.128-amd64
 **DEPENDENCY INSTALLATION**
@@ -67,4 +70,18 @@ cd ~/ros_sensors/src
 git clone https://github.com/ros-drivers/velodyne.git
 cd ..
 catkin_make
+source devel/setup.bash
 ```
+
+## 1.4 Run the package
+1. Run the launch file:
+```
+roslaunch spinnaker_sdk_camera_driver acquisition.launch
+```
+2. Launch RVIZ
+```rviz``` go to ```by topic``` and click on ```image```
+
+3. To launch node version of driver, use 
+```
+roslaunch spinnaker_sdk_camera_driver node_acquisition.launch
+``` 
