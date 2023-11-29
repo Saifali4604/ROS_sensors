@@ -60,7 +60,7 @@ libxcb-xinerama0
 **USB CAMERA SETUP**
 ```
 sudo sh configure_usbfs.sh
-sudo ./configure_spinnaker.sh
+sudo sh configure_spinnaker.sh
 reboot
 ```
 
