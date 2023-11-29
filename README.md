@@ -43,7 +43,9 @@ rosrun rviz rviz -f velodyne
 (Download)https://flir.netx.net/file/asset/54573/original/attachment
 
 **Extract:** x64_focal -> spinnaker-2.7.0.128-amd64 
+
 Open the terminal inside spinnaker-2.7.0.128-amd64
+
 **DEPENDENCY INSTALLATION**
 ```
 sudo apt-get install libavcodec58 libavformat58 \
