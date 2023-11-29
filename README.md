@@ -23,8 +23,7 @@ Now, your Velodyne package is ready to run.
 4. Go to settings, open Networks then click on wired Networks -> IPv4
 5. Select Manual and  Set the address: ```192.168.1.202```
 6. Netmask: ```255.255.255.0```
-7. Gateway: ```0.0.0.0```
-8. click apply.
+7. Gateway: ```0.0.0.0``` and click on apply.
 
 ## 1.4 Run the package
 1. Run the launch file:
