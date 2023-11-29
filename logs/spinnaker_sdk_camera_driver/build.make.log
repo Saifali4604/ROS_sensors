@@ -1,0 +1,121 @@
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _spinnaker_sdk_camera_driver_generate_messages_check_deps_SpinnakerImageNames[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target spinnaker_sdk_camera_driver_gencfg[0m
+[35m[1mScanning dependencies of target subscriber_example[0m
+[  6%] [34m[1mGenerating dynamic reconfigure files from cfg/spinnaker_cam.cfg: /home/wirin/MUKTHA/spinnaker_ws/devel/.private/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/spinnaker_camConfig.h /home/wirin/MUKTHA/spinnaker_ws/devel/.private/spinnaker_sdk_camera_driver/lib/python2.7/dist-packages/spinnaker_sdk_camera_driver/cfg/spinnaker_camConfig.py[0m
+[  6%] Built target _spinnaker_sdk_camera_driver_generate_messages_check_deps_SpinnakerImageNames
+[ 13%] [32mBuilding CXX object CMakeFiles/subscriber_example.dir/examples/subscriber_nodelet.cpp.o[0m
+[35m[1mScanning dependencies of target spinnaker_sdk_camera_driver_generate_messages_py[0m
+[35m[1mScanning dependencies of target spinnaker_sdk_camera_driver_generate_messages_lisp[0m
+[ 20%] [34m[1mGenerating Python from MSG spinnaker_sdk_camera_driver/SpinnakerImageNames[0m
+[ 26%] [34m[1mGenerating Lisp code from spinnaker_sdk_camera_driver/SpinnakerImageNames.msg[0m
+Generating reconfiguration files for spinnaker_cam in spinnaker_sdk_camera_driver
+Wrote header file in /home/wirin/MUKTHA/spinnaker_ws/devel/.private/spinnaker_sdk_camera_driver/include/spinnaker_sdk_camera_driver/spinnaker_camConfig.h
+[ 26%] Built target spinnaker_sdk_camera_driver_generate_messages_lisp
+[35m[1mScanning dependencies of target spinnaker_sdk_camera_driver_generate_messages_nodejs[0m
+[ 26%] Built target spinnaker_sdk_camera_driver_gencfg
+[ 33%] [34m[1mGenerating Javascript code from spinnaker_sdk_camera_driver/SpinnakerImageNames.msg[0m
+[35m[1mScanning dependencies of target spinnaker_sdk_camera_driver_generate_messages_eus[0m
+[ 40%] [34m[1mGenerating EusLisp code from spinnaker_sdk_camera_driver/SpinnakerImageNames.msg[0m
+[ 40%] Built target spinnaker_sdk_camera_driver_generate_messages_nodejs
+[35m[1mScanning dependencies of target spinnaker_sdk_camera_driver_generate_messages_cpp[0m
+[ 46%] [34m[1mGenerating Python msg __init__.py for spinnaker_sdk_camera_driver[0m
+[ 53%] [34m[1mGenerating C++ code from spinnaker_sdk_camera_driver/SpinnakerImageNames.msg[0m
+[ 60%] [34m[1mGenerating EusLisp manifest code for spinnaker_sdk_camera_driver[0m
+[ 60%] Built target spinnaker_sdk_camera_driver_generate_messages_py
+[ 60%] Built target spinnaker_sdk_camera_driver_generate_messages_cpp
+[ 60%] Built target spinnaker_sdk_camera_driver_generate_messages_eus
+[35m[1mScanning dependencies of target spinnaker_sdk_camera_driver_generate_messages[0m
+[35m[1mScanning dependencies of target acquilib[0m
+[ 60%] Built target spinnaker_sdk_camera_driver_generate_messages
+[ 66%] [32mBuilding CXX object CMakeFiles/acquilib.dir/src/capture.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/acquilib.dir/src/camera.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library /home/wirin/MUKTHA/spinnaker_ws/devel/.private/spinnaker_sdk_camera_driver/lib/libsubscriber_example.so[0m
+[ 80%] Built target subscriber_example
+[ 86%] [32m[1mLinking CXX shared library /home/wirin/MUKTHA/spinnaker_ws/devel/.private/spinnaker_sdk_camera_driver/lib/libacquilib.so[0m
+[ 86%] Built target acquilib
+[35m[1mScanning dependencies of target acquisition_node[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/acquisition_node.dir/src/acquisition_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/wirin/MUKTHA/spinnaker_ws/devel/.private/spinnaker_sdk_camera_driver/lib/spinnaker_sdk_camera_driver/acquisition_node[0m
+[100%] Built target acquisition_node
