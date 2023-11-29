@@ -87,4 +87,7 @@ roslaunch spinnaker_sdk_camera_driver acquisition.launch
 3. To launch node version of driver, use 
 ```
 roslaunch spinnaker_sdk_camera_driver node_acquisition.launch
-``` 
+```
+---
+(Camera)https://github.com/neufieldrobotics/spinnaker_sdk_camera_driver
+(VLP16)https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
