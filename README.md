@@ -1,5 +1,5 @@
 # ROS_sensors
-# 1 Velodyne VLP16 Lidar
+# 1. Velodyne VLP16 Lidar
 ## 1.1 Installing ROS dependencies
 
 ```sudo apt-get install ros-noetic-velodyne```
@@ -36,7 +36,7 @@ roslaunch velodyne_pointcloud VLP16_points.launch
 rosrun rviz rviz -f velodyne
 ```
 
-# 2 Flir Camera
+# 2. Flir Camera
 
 ## 2.1 Installing Spinnaker SDK 
 
