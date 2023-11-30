@@ -6,12 +6,12 @@
 
 ## 1.2 Installing the VLP16 driver
 ```
-mkdir -p ~/ros_main_sensors/src
-cd ~/ros_main_sensors/src
+mkdir -p ~/ros_vlp16/src
+cd ~/ros_vlp16/src
 git clone https://github.com/ros-drivers/velodyne.git
 sudo apt update
 sudo apt upgrade
-cd ~/ros_main_sensors/
+cd ~/ros_vlp16/
 catkin_make
 source devel/setup.bash
 ```
@@ -69,7 +69,8 @@ reboot
 
 ## 2.3 Installing the spinnaker_sdk_camera_driver
 ```
-cd ~/ros_main_sensors/src
+mkdir -p ~/ros_flir_camera/src
+cd ~/ros_flir_camera/src
 git clone https://github.com/Saifali4604/vlp16_flir_xsens
 cd ~/ros_main_sensors/
 catkin_make
@@ -101,9 +102,10 @@ sudo apt-get update
 sudo apt-get install python3-catkin-tools
 ```
 ```
-cd ~/ros_main_sensors/src
+mkdir -p ~/ros_xsens_imu/src
+cd ~/ros_xsens_sensors/src
 git clone https://github.com/nobleo/xsens_mti_driver
-cd ~/ros_main_senors/
+cd ~/ros_xsens_imu/
 catkin build
 ```
 ## 3.2 Run the Package
