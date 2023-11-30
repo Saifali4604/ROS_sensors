@@ -6,12 +6,12 @@
 
 ## 1.2 Installing the VLP16 driver
 ```
-mkdir -p ~/ros_sensors/src
-cd ros_sensors/src
+mkdir -p ~/ros_main_sensors/src
+cd ~/ros_main_sensors/src
 git clone https://github.com/ros-drivers/velodyne.git
 sudo apt update
 sudo apt upgrade
-cd ..
+cd ~/ros_main_sensors/
 catkin_make
 source devel/setup.bash
 ```
@@ -69,9 +69,9 @@ reboot
 
 ## 2.3 Installing the spinnaker_sdk_camera_driver
 ```
-cd ~/ros_sensors/src
+cd ~/ros_main_sensors/src
 git clone https://github.com/Saifali4604/ROS_sensors
-cd ..
+cd ~/ros_main_sensors/
 catkin_make
 source devel/setup.bash
 ```
@@ -88,6 +88,36 @@ roslaunch spinnaker_sdk_camera_driver acquisition.launch
 ```
 roslaunch spinnaker_sdk_camera_driver node_acquisition.launch
 ```
+# 3. Xnes IMU ( Xnes 670G/GNSS )
+## 3.1 Installing the Xnes driver
+```
+sudo sh \
+    -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" \
+        > /etc/apt/sources.list.d/ros-latest.list'
+wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+```
+```
+sudo apt-get update
+sudo apt-get install python3-catkin-tools
+```
+```
+cd ~/ros_main_sensors/src
+git clone https://github.com/nobleo/xsens_mti_driver
+cd ~/ros_main_senors/
+catkin build
+```
+## 3.2 Run the Package
+
+1. Launch the Xsens MTi driver from your catkin workspace
+```
+roslaunch xsens_mti_driver xsens_mti_node.launch
+```
+2. rviz visualization:
+```
+roslaunch xsens_mti_driver display.launch
+```
+
 ---
 (Camera)https://github.com/neufieldrobotics/spinnaker_sdk_camera_driver
 (VLP16)https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
+(Xnes IMU)https://github.com/nobleo/xsens_mti_driver
