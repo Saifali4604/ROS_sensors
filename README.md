@@ -1,4 +1,4 @@
-# ROS_sensors
+# VLP16_Flir_Xsens with ROS
 # 1. Velodyne VLP16 Lidar
 ## 1.1 Installing ROS dependencies
 
@@ -88,8 +88,8 @@ roslaunch spinnaker_sdk_camera_driver acquisition.launch
 ```
 roslaunch spinnaker_sdk_camera_driver node_acquisition.launch
 ```
-# 3. Xnes IMU ( Xnes 670G/GNSS )
-## 3.1 Installing the Xnes driver
+# 3. Xsens IMU ( Xsens 670G/GNSS )
+## 3.1 Installing the Xsens driver
 ```
 sudo sh \
     -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" \
@@ -120,4 +120,5 @@ roslaunch xsens_mti_driver display.launch
 ---
 (Camera)https://github.com/neufieldrobotics/spinnaker_sdk_camera_driver
 (VLP16)https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
-(Xnes IMU)https://github.com/nobleo/xsens_mti_driver
+
+(Xsens IMU)https://github.com/nobleo/xsens_mti_driver
