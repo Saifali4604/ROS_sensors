@@ -120,6 +120,7 @@ roslaunch xsens_mti_driver display.launch
 ```
 
 ---
+(Xsens IMU)https://github.com/nobleo/xsens_mti_driver
 (Camera)https://github.com/neufieldrobotics/spinnaker_sdk_camera_driver
 (VLP16)https://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
-(Xsens IMU)https://github.com/nobleo/xsens_mti_driver
+
