@@ -70,7 +70,7 @@ reboot
 ## 2.3 Installing the spinnaker_sdk_camera_driver
 ```
 cd ~/ros_sensors/src
-https://github.com/Saifali4604/ROS_sensors
+git clone https://github.com/Saifali4604/ROS_sensors
 cd ..
 catkin_make
 source devel/setup.bash
