@@ -1,11 +1,10 @@
 cam_ids:
-- 19405761
+- 19405753
 cam_aliases:
 - cam0
-master_cam: 19405761
+master_cam: 19405753
 skip: 20
 delay: 1.0
-
 # Assign all the follwing via launch file to prevent confusion and conflict
 
 #save_path: ~/projects/data
