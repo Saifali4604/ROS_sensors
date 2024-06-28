@@ -65,14 +65,16 @@ reboot
 ```
 
 ## 2.2 Installing ROS dependencies
-``` sudo apt install libunwind-dev ros-noetic-cv-bridge ros-noetic-image-transport```
+``` 
+cd 
+sudo apt install libunwind-dev ros-noetic-cv-bridge ros-noetic-image-transport```
 
 ## 2.3 Installing the spinnaker_sdk_camera_driver
 ```
 mkdir -p ~/ros_flir_camera/src
 cd ~/ros_flir_camera/src
 git clone https://github.com/Saifali4604/vlp16_flir_xsens
-cd ~/ros_main_sensors/
+cd ~/ros_flir_camera/
 catkin_make
 source devel/setup.bash
 ```
