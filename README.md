@@ -67,7 +67,8 @@ reboot
 ## 2.2 Installing ROS dependencies
 ``` 
 cd 
-sudo apt install libunwind-dev ros-noetic-cv-bridge ros-noetic-image-transport```
+sudo apt install libunwind-dev ros-noetic-cv-bridge ros-noetic-image-transport
+```
 
 ## 2.3 Installing the spinnaker_sdk_camera_driver
 ```
